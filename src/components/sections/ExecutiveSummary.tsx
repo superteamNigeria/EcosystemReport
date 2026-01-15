@@ -54,14 +54,15 @@ export function ExecutiveSummary() {
         </>
       }
     >
-      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 gap-4 md:gap-6 md:grid-cols-2 lg:grid-cols-3">
         {highlights.map((item, index) => (
           <motion.div
             key={index}
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
             transition={{ delay: index * 0.1 }}
-            className="border border-white/10 bg-white/5 p-6 hover:border-matrix-green/50 transition-colors group relative overflow-hidden"
+            className="border border-white/10 bg-white/5 p-4 md:p-6 hover:border-matrix-green/50 transition-colors group relative overflow-hidden"
           >
             {/* Terminal corner accents */}
             <div className="absolute top-0 right-0 p-2 opacity-0 group-hover:opacity-100 transition-opacity">
@@ -75,7 +76,7 @@ export function ExecutiveSummary() {
               <span className="font-mono text-xs text-white/40 tracking-widest">[LOG_{index + 1}]</span>
             </div>
             
-            <h3 className="text-2xl font-mono text-white mb-2 tracking-tight group-hover:text-matrix-green transition-colors">
+            <h3 className="text-xl md:text-2xl font-mono text-white mb-2 tracking-tight group-hover:text-matrix-green transition-colors">
               {item.value}
             </h3>
             <h4 className="text-sm font-bold text-white/80 uppercase tracking-wider mb-2">
