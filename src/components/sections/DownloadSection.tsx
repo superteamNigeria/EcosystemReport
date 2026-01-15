@@ -20,8 +20,9 @@ export function DownloadSection() {
         </div>
         
         <motion.a
-          href="/report.pdf" 
-          download
+          href="https://drive.google.com/file/d/1mI-y5RdH70plNfSkZPWmC6rSBoC_KWc-/view?usp=sharing" 
+          target="_blank"
+          rel="noopener noreferrer"
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
           className="group relative inline-flex items-center gap-6 px-8 py-6 bg-matrix-green/5 border border-matrix-green/50 hover:bg-matrix-green/10 text-matrix-green font-mono text-lg transition-all overflow-hidden"
@@ -34,20 +35,19 @@ export function DownloadSection() {
           </div>
           
           <div className="flex flex-col items-start">
-            <span className="uppercase tracking-widest text-sm text-white/50 mb-1">Secure Download</span>
-            <span className="font-bold tracking-tight">INITIATE_FILE_TRANSFER.PDF</span>
+            <span className="uppercase tracking-widest text-sm text-white/50 mb-1">Secure Access</span>
+            <span className="font-bold tracking-tight">VIEW_FULL_DOSSIER</span>
           </div>
 
           <div className="flex items-center gap-2 text-xs text-matrix-green/50 ml-4 border-l border-matrix-green/20 pl-6">
             <Lock className="w-3 h-3" />
-            <span>ENCRYPTED</span>
+            <span>EXTERNAL</span>
           </div>
         </motion.a>
         
         <div className="flex gap-8 text-xs font-mono text-white/30 uppercase tracking-widest">
-          <span>Size: 100MB</span>
-          <span>Format: PDF</span>
-          <span>Hash: 8X...F9</span>
+          <span>Source: Google Drive</span>
+          <span>Access: Public</span>
         </div>
       </div>
     </Section>
