@@ -7,7 +7,7 @@ import { Download, FileText, Lock } from "lucide-react"
 export function DownloadSection() {
   return (
     <Section 
-      title="Download Full Report" 
+      title="Download Report" 
       subtitle="Get the Report"
       variant="default"
       className="pb-32"
@@ -29,15 +29,7 @@ export function DownloadSection() {
             <Download className="w-6 h-6" />
           </div>
           
-          <div className="flex flex-col items-center md:items-start text-center md:text-left">
-            <span className="uppercase tracking-widest text-xs md:text-sm text-white/50 mb-1">Download Report</span>
-            <span className="font-bold tracking-tight text-sm md:text-base">FULL REPORT PDF</span>
-          </div>
-
-          <div className="flex items-center gap-2 text-xs text-matrix-green/50 md:ml-4 md:border-l md:border-matrix-green/20 md:pl-6 mt-2 md:mt-0">
-            <Lock className="w-3 h-3" />
-            <span>EXTERNAL</span>
-          </div>
+          <span className="font-bold tracking-tight text-sm md:text-base uppercase">Download Report</span>
         </motion.a>
         
         <div className="flex flex-col md:flex-row gap-2 md:gap-8 text-xs font-mono text-white/30 uppercase tracking-widest text-center">

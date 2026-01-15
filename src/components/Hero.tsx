@@ -53,7 +53,7 @@ export function Hero() {
           transition={{ delay: 0.6, duration: 0.8 }}
         >
            <h2 className="text-sm md:text-2xl font-mono text-paper-white tracking-[0.1em] md:tracking-[0.2em] uppercase whitespace-nowrap">
-             SUPERTEAM NIGERIA
+             THE SUPERTEAM NIGERIA
            </h2>
            <p className="text-base md:text-lg text-white/60 font-mono">
              IMPACT REPORT 2025
