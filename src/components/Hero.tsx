@@ -79,7 +79,6 @@ export function Hero() {
       </motion.div>
       
       {/* Decorative Corners */}
-      <div className="absolute top-8 left-8 w-4 h-4 border-t border-l border-matrix-green/50" />
       <div className="absolute top-8 right-8 w-4 h-4 border-t border-r border-matrix-green/50" />
       <div className="absolute bottom-8 left-8 w-4 h-4 border-b border-l border-matrix-green/50" />
       <div className="absolute bottom-8 right-8 w-4 h-4 border-b border-r border-matrix-green/50" />
