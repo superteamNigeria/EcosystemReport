@@ -7,8 +7,8 @@ import { Download, FileText, Lock } from "lucide-react"
 export function DownloadSection() {
   return (
     <Section 
-      title="Download Report" 
-      subtitle="Get the Report"
+      title="" 
+      subtitle=""
       variant="default"
       className="pb-32"
     >

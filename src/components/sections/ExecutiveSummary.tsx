@@ -30,7 +30,6 @@ export function ExecutiveSummary() {
     <Section 
       id="executive-summary" 
       title="Executive Summary"
-      subtitle="System Overview"
       content={
         <>
           <p className="mb-6">

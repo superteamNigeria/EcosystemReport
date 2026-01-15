@@ -68,7 +68,7 @@ export function Hero() {
         transition={{ delay: 1, duration: 1 }}
       >
         <div className="flex flex-col items-center gap-2 text-matrix-green font-mono text-xs tracking-widest uppercase">
-          <span>[ Initiate Scroll ]</span>
+          <span>Scroll Down</span>
           <motion.div
             animate={{ y: [0, 8, 0] }}
             transition={{ duration: 1.5, repeat: Infinity }}
