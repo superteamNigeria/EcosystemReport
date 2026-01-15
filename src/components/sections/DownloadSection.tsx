@@ -7,8 +7,8 @@ import { Download, FileText, Lock } from "lucide-react"
 export function DownloadSection() {
   return (
     <Section 
-      title="Access Full Dossier" 
-      subtitle="Data Export"
+      title="Download Full Report" 
+      subtitle="Get the Report"
       variant="default"
       className="pb-32"
     >
@@ -35,8 +35,8 @@ export function DownloadSection() {
           </div>
           
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
-            <span className="uppercase tracking-widest text-xs md:text-sm text-white/50 mb-1">Secure Access</span>
-            <span className="font-bold tracking-tight text-sm md:text-base">VIEW_FULL_DOSSIER</span>
+            <span className="uppercase tracking-widest text-xs md:text-sm text-white/50 mb-1">Download Report</span>
+            <span className="font-bold tracking-tight text-sm md:text-base">FULL REPORT PDF</span>
           </div>
 
           <div className="flex items-center gap-2 text-xs text-matrix-green/50 md:ml-4 md:border-l md:border-matrix-green/20 md:pl-6 mt-2 md:mt-0">
