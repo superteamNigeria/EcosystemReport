@@ -37,7 +37,7 @@ export function Section({
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
           viewport={{ once: true, margin: "-100px" }}
-          className="grid md:grid-cols-[1fr_2fr] gap-8 md:gap-16 items-start"
+          className="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-8 md:gap-16 items-start"
         >
           {/* Header Column */}
           <div className="sticky top-20">
@@ -53,7 +53,7 @@ export function Section({
               </motion.p>
             )}
             
-            <h2 className="font-serif italic text-4xl md:text-6xl text-white mb-8 border-l-2 border-matrix-green pl-6 py-2">
+            <h2 className="font-serif italic text-3xl md:text-6xl text-white mb-6 md:mb-8 border-l-2 border-matrix-green pl-4 md:pl-6 py-2">
               {title}
             </h2>
 
@@ -65,7 +65,7 @@ export function Section({
           </div>
 
           {/* Content Column */}
-          <div className="space-y-12">
+          <div className="space-y-8 md:space-y-12 mt-4 md:mt-0">
             {children}
           </div>
         </motion.div>

@@ -64,8 +64,8 @@ export function Hero() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6, duration: 0.8 }}
         >
-           <h2 className="text-xl md:text-2xl font-mono text-paper-white tracking-[0.2em] uppercase">
-             T H E S U P E R T E A M N I G E R I A
+           <h2 className="text-sm md:text-2xl font-mono text-paper-white tracking-[0.1em] md:tracking-[0.2em] uppercase whitespace-nowrap">
+             SUPERTEAM NIGERIA
            </h2>
            <p className="text-base md:text-lg text-white/60 font-mono">
              // IMPACT REPORT 2025.LOG
