@@ -6,6 +6,19 @@ import { ArrowDown, Crosshair } from "lucide-react"
 export function Hero() {
   return (
     <section className="h-screen w-full flex flex-col items-center justify-center relative overflow-hidden">
+      {/* Top Left Logo */}
+      <motion.a
+        href="https://ng.superteam.fun"
+        target="_blank"
+        rel="noopener noreferrer"
+        initial={{ opacity: 0, x: -20 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ delay: 1, duration: 0.8 }}
+        className="absolute top-4 left-4 z-50 hover:opacity-80 transition-opacity"
+      >
+        <img src="/superteam-logo.svg" alt="Superteam Nigeria" className="h-8 md:h-10 w-auto" />
+      </motion.a>
+
       {/* Dot Matrix Map Background Placeholder */}
       <div 
         className="absolute inset-0 opacity-20 pointer-events-none"
