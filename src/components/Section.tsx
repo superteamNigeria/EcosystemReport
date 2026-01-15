@@ -58,14 +58,14 @@ export function Section({
             </h2>
 
             {content && (
-              <div className="text-lg text-white/70 leading-relaxed font-light">
+              <div className="text-lg text-white/70 leading-relaxed font-light mb-6 md:mb-0">
                 {content}
               </div>
             )}
           </div>
 
           {/* Content Column */}
-          <div className="space-y-8 md:space-y-12 mt-4 md:mt-0">
+          <div className="space-y-8 md:space-y-12 mt-8 md:mt-0">
             {children}
           </div>
         </motion.div>
