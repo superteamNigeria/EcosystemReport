@@ -25,7 +25,7 @@ export function DownloadSection() {
           rel="noopener noreferrer"
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
-          className="group relative inline-flex items-center gap-6 px-8 py-6 bg-matrix-green/5 border border-matrix-green/50 hover:bg-matrix-green/10 text-matrix-green font-mono text-lg transition-all overflow-hidden"
+          className="group relative flex flex-col md:flex-row items-center gap-4 md:gap-6 px-6 py-5 md:px-8 md:py-6 bg-matrix-green/5 border border-matrix-green/50 hover:bg-matrix-green/10 text-matrix-green font-mono text-base md:text-lg transition-all overflow-hidden w-full max-w-md md:max-w-none md:w-auto"
         >
           {/* Scanline effect */}
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-matrix-green/10 to-transparent translate-y-[-100%] group-hover:translate-y-[100%] transition-transform duration-1000 ease-in-out" />
@@ -34,18 +34,18 @@ export function DownloadSection() {
             <Download className="w-6 h-6" />
           </div>
           
-          <div className="flex flex-col items-start">
-            <span className="uppercase tracking-widest text-sm text-white/50 mb-1">Secure Access</span>
-            <span className="font-bold tracking-tight">VIEW_FULL_DOSSIER</span>
+          <div className="flex flex-col items-center md:items-start text-center md:text-left">
+            <span className="uppercase tracking-widest text-xs md:text-sm text-white/50 mb-1">Secure Access</span>
+            <span className="font-bold tracking-tight text-sm md:text-base">VIEW_FULL_DOSSIER</span>
           </div>
 
-          <div className="flex items-center gap-2 text-xs text-matrix-green/50 ml-4 border-l border-matrix-green/20 pl-6">
+          <div className="flex items-center gap-2 text-xs text-matrix-green/50 md:ml-4 md:border-l md:border-matrix-green/20 md:pl-6 mt-2 md:mt-0">
             <Lock className="w-3 h-3" />
             <span>EXTERNAL</span>
           </div>
         </motion.a>
         
-        <div className="flex gap-8 text-xs font-mono text-white/30 uppercase tracking-widest">
+        <div className="flex flex-col md:flex-row gap-2 md:gap-8 text-xs font-mono text-white/30 uppercase tracking-widest text-center">
           <span>Source: Google Drive</span>
           <span>Access: Public</span>
         </div>
