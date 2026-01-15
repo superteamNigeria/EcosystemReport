@@ -2,7 +2,7 @@
 
 import { Section } from "@/components/Section"
 import { motion } from "framer-motion"
-import { Users, Trophy, Lightbulb, Calendar } from "lucide-react"
+import { Users, Trophy, Lightbulb } from "lucide-react"
 
 export function ExecutiveSummary() {
   const highlights = [
@@ -23,12 +23,6 @@ export function ExecutiveSummary() {
       title: "FAT Thesis",
       value: "Product Scale",
       description: "Incubated products like Ribh and NectarFi processing millions in volume."
-    },
-    {
-      icon: Calendar,
-      title: "Future Outlook",
-      value: "$2M Target",
-      description: "Active exploration of Internet Capital Markets for 2026."
     }
   ]
 
@@ -63,11 +57,10 @@ export function ExecutiveSummary() {
               <div className="w-2 h-2 bg-matrix-green" />
             </div>
 
-            <div className="flex items-start justify-between mb-4">
+            <div className="flex items-start mb-4">
               <div className="p-2 bg-matrix-green/10 rounded-none border border-matrix-green/20 text-matrix-green">
                 <item.icon className="w-6 h-6" />
               </div>
-              <span className="font-mono text-xs text-white/40 tracking-widest">[LOG_{index + 1}]</span>
             </div>
             
             <h3 className="text-xl md:text-2xl font-mono text-white mb-2 tracking-tight group-hover:text-matrix-green transition-colors">

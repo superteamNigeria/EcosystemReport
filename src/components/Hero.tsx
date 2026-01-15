@@ -56,7 +56,7 @@ export function Hero() {
              SUPERTEAM NIGERIA
            </h2>
            <p className="text-base md:text-lg text-white/60 font-mono">
-             // IMPACT REPORT 2025.LOG
+             IMPACT REPORT 2025.LOG
            </p>
         </motion.div>
       </div>

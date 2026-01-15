@@ -15,7 +15,7 @@ export function DownloadSection() {
       <div className="flex flex-col items-center justify-center mt-12 space-y-12">
         <div className="max-w-2xl text-center space-y-4">
           <p className="text-xl text-white/60 font-mono">
-            // Full ecosystem analysis, case studies, and financial logs available for extraction.
+            Full ecosystem analysis, case studies, and financial logs available for extraction.
           </p>
         </div>
         
