@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { ArrowDown, Crosshair } from "lucide-react"
+import { ArrowDown } from "lucide-react"
 
 export function Hero() {
   return (
@@ -43,13 +43,13 @@ export function Hero() {
         </motion.div>
 
         <motion.h1 
-          className="text-6xl md:text-9xl mb-6 flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 leading-none"
+          className="text-6xl md:text-9xl mb-6 flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4 leading-none"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.8 }}
         >
           <span className="font-serif italic text-white tracking-tight">Proof</span>
-          <Crosshair className="w-8 h-8 md:w-16 md:h-16 text-matrix-green hidden md:block opacity-50" />
+          <span className="font-mono text-matrix-green/60 text-3xl md:text-5xl">of</span>
           <span 
             className="font-mono text-matrix-green glitch-text tracking-tighter" 
             data-text="Work"
