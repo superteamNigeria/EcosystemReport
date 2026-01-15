@@ -21,7 +21,18 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Superteam Nigeria 2025 Impact Report",
-  description: "Proof of Work: A terminal log of our ecosystem's execution.",
+  description: "Summarized ecosystem report and PDF of 2025. Proof of Work: A terminal log of our ecosystem's execution.",
+  openGraph: {
+    title: "Superteam Nigeria 2025 Impact Report",
+    description: "Summarized ecosystem report and PDF of 2025. Proof of Work: A terminal log of our ecosystem's execution.",
+    type: "website",
+    siteName: "Superteam Nigeria",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Superteam Nigeria 2025 Impact Report",
+    description: "Summarized ecosystem report and PDF of 2025.",
+  },
 };
 
 export default function RootLayout({
