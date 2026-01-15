@@ -30,18 +30,6 @@ export function Hero() {
       />
       
       <div className="z-10 text-center px-4 max-w-5xl mx-auto">
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.8 }}
-          className="mb-8"
-        >
-          <span className="inline-flex items-center gap-2 py-1 px-3 bg-matrix-green/10 text-matrix-green text-xs md:text-sm font-mono tracking-widest uppercase border border-matrix-green/20">
-            <span className="w-2 h-2 bg-matrix-green animate-pulse" />
-            System Status: Operational
-          </span>
-        </motion.div>
-
         <motion.h1 
           className="text-6xl md:text-9xl mb-6 flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4 leading-none"
           initial={{ opacity: 0, y: 30 }}

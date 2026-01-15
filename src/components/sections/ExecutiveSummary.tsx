@@ -2,16 +2,10 @@
 
 import { Section } from "@/components/Section"
 import { motion } from "framer-motion"
-import { Check, ShieldCheck, TrendingUp, Users, Trophy, Lightbulb, Calendar } from "lucide-react"
+import { Users, Trophy, Lightbulb, Calendar } from "lucide-react"
 
 export function ExecutiveSummary() {
   const highlights = [
-    {
-      icon: TrendingUp,
-      title: "Economic Impact",
-      value: "$1.2M+",
-      description: "Direct Community GDP generated for Nigerian talent through grants and bounties."
-    },
     {
       icon: Users,
       title: "Public-Sector Engagement",
