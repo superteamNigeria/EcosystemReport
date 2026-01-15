@@ -13,11 +13,6 @@ export function DownloadSection() {
       className="pb-32"
     >
       <div className="flex flex-col items-center justify-center mt-12 space-y-12">
-        <div className="max-w-2xl text-center space-y-4">
-          <p className="text-xl text-white/60 font-mono">
-            Full ecosystem analysis, case studies, and financial logs available for extraction.
-          </p>
-        </div>
         
         <motion.a
           href="https://drive.google.com/file/d/1mI-y5RdH70plNfSkZPWmC6rSBoC_KWc-/view?usp=sharing" 
