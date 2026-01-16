@@ -11,6 +11,7 @@ interface SectionProps {
   className?: string
   children?: React.ReactNode
   variant?: "default" | "highlight"
+  hideHighlight?: boolean
 }
 
 export function Section({ 
@@ -20,7 +21,8 @@ export function Section({
   content, 
   className,
   children,
-  variant = "default" 
+  variant = "default",
+  hideHighlight = false
 }: SectionProps) {
   
   return (
@@ -53,7 +55,10 @@ export function Section({
               </motion.p>
             )}
             
-            <h2 className="font-serif italic text-3xl md:text-6xl text-white mb-6 md:mb-8 border-l-2 border-matrix-green pl-4 md:pl-6 py-2">
+            <h2 className={cn(
+              "font-serif italic text-3xl md:text-6xl text-white mb-6 md:mb-8",
+              !hideHighlight && "border-l-2 border-matrix-green pl-4 md:pl-6 py-2"
+            )}>
               {title}
             </h2>
 

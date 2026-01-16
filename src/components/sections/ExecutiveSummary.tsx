@@ -29,7 +29,8 @@ export function ExecutiveSummary() {
   return (
     <Section 
       id="executive-summary" 
-      title="Executive Summary"
+      title=""
+      hideHighlight={true}
       content={
         <>
           <p className="mb-6">
