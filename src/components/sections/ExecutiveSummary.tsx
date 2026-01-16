@@ -36,8 +36,7 @@ export function ExecutiveSummary() {
             In 2025, Superteam Nigeria evolved from a grassroots community into a <span className="text-white font-medium">sovereign economic engine</span>.
           </p>
           <p>
-            We didn't just onboard users; we generated tangible economic value, fostered institutional trust, and built the infrastructure for a digital nation state.
-          </p>
+           We incubated and integrated revenue-generating products, generated tangible economic value, fostered institutional trust, and built the infrastructure for a digital nation state.  </p>
         </>
       }
     >
