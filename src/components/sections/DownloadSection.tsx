@@ -9,7 +9,7 @@ export function DownloadSection() {
       <div className="flex flex-col items-center justify-center space-y-8">
         
         <motion.a
-          href="https://drive.google.com/file/d/1mI-y5RdH70plNfSkZPWmC6rSBoC_KWc-/view?usp=sharing" 
+          href="https://drive.google.com/file/d/1HDO2nMLdRuPng5H7Gq0o32WaWo-Y26ec/view?usp=sharing" 
           target="_blank"
           rel="noopener noreferrer"
           whileHover={{ scale: 1.02 }}
